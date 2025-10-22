@@ -1,0 +1,149 @@
+/* === Chocolate Factory ÚWT Styles === */
+
+/* General settings */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #330000;
+}
+
+header {
+    background-color: #ffffff;
+    color: #330000;
+}
+
+footer {
+    border-top: double 3px #FF9999;
+    color: #330000;
+}
+
+/* === Navigation === */
+.navigation {
+    border-top: double 3px #FF9999;
+    border-bottom: double 3px #FF9999;
+    border-left: double 3px #FF9999;   /* added left border */
+    border-right: double 3px #FF9999;  /* added right border */
+    box-sizing: border-box;
+    padding: 6px;           /* keep links away from the border edge */
+    overflow: hidden;
+    padding: 0;
+}
+
+.navigation .nav-link {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 0;
+    background-color: #fff; /* white by default */
+    color: #000;            /* black text */
+    text-decoration: none;
+}
+
+.navigation .nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+
+
+.navigation .nav-link:hover {
+    color: rgb(255, 247, 224);
+    background-color: #330000;
+}
+
+
+.navigation .nav-link.d-inline.d-lg-none:hover
+ {
+    background: #330000 ;
+    color: rgb(255, 247, 224);
+}
+
+
+.choco-block .btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+/* === Shopping Cart === */
+.shopping-cart {
+    background-color: rgb(229, 216, 197);
+    color: #330000;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+/* === Main Content === */
+.main-content {
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.chocolate-box {
+    background-image: url("images/background.jpg");
+    color: #fff;
+    border-radius: 0;              /* keep square edges per your request */
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 18px;                 /* inner spacing so content doesn't touch edges */
+    min-height: 220px;             /* ensure enough height to show the image */
+    box-sizing: border-box;
+    position: relative;
+}
+
+.choco-block {
+    width: 150px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.price {
+    padding: 10px;
+    font-weight: bold;
+    color: #41ed08;
+}
+
+
+
+
+/* make each product block sit inside the brown box and avoid overflow */
+.choco-block {
+    width: 150px;
+    text-align: center;
+    background-color: transparent; /* let wrapper color/image show */
+    padding: 8px;
+    border-radius: 10px;
+    box-sizing: border-box; /* include padding in width */
+    overflow: hidden;
+}
+
+/* ensure product images fit their container (no overflow) */
+.choco-block img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.choco-block h3 {
+    font-size: 14px;
+    margin: 0.25rem 0;
+}
+
+
+/* === News Section === */
+.news {
+    background-color: #ffffff;
+    color: #330000;
+    text-align: center;
+}
+.news img {
+    max-width: 100%;
+}
+

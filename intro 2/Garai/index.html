@@ -1,0 +1,122 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Factory ÚWT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class=" bg-white text-dark">
+        <h1>Chocolate Factory ÚWT</h1>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Navigation and Cart -->
+            <aside class="col-lg-3">
+                <!-- ...existing code... -->
+                <nav class="navigation mb-3">
+                  <!-- small: left-aligned row; lg+: column centered -->
+                  <ul class="nav flex-lg-column justify-content-lg-center justify-content-start text-lg-center text-start">
+                    <li class="nav-item">
+                        <!-- large: full-width block (visible on lg+); small: hidden -->
+                        <a href="index.html" class="nav-link d-none d-lg-block w-100">Home</a>
+                        <!-- small: inline, left-aligned; large: hidden -->
+                        <a href="index.html" class="nav-link d-inline d-lg-none">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link d-none d-lg-block w-100">Products</a>
+                        <a href="#" class="nav-link d-inline d-lg-none">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link d-none d-lg-block w-100">About</a>
+                        <a href="#" class="nav-link d-inline d-lg-none">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link d-none d-lg-block w-100">Contact</a>
+                        <a href="#" class="nav-link d-inline d-lg-none">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+                <!-- ...existing code... -->
+
+                <div class="shopping-cart p-2 mb-3">
+                    <b class="d-block mb-2">shopping cart</b>
+                    <p class="mb-0">empty</p>    </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="col-lg-7 main-content p-3">
+                <div class="chocolate-box mx-auto p-3">
+                    <h2 class="mb-3"><b>Our Chocolates</b></h2>
+                        <div class="d-flex flex-wrap gap-3 justify-content-center">
+                            <div class="d-flex flex-wrap gap-3">
+                                <div class="choco-block">
+                                    <h3>Cokoladovy Mixe</h3>
+                                    <img src="images/cokoladovy_mix.jpg" alt="cokoladovy mixe" width="150">
+                                    <p class="price">2.80 €</p>
+                                    <button class="btn btn-light">Add to basket</button>
+                                </div>
+                                <div class="choco-block">
+                                    <h3>Dary Mora</h3>
+                                    <img src="images/dary_mora.jpg" alt="dary_mora" width="150">
+                                    <p class="price">3.40 €</p>
+                                    <button class="btn btn-light">Add to basket</button>
+                                </div>
+                                <div class="choco-block">
+                                    <h3>Crievicka</h3>
+                                    <img src="images/crievicka.jpg" alt="crievicka" width="150">
+                                    <p class="price">2.00 €</p>
+                                    <button class="btn btn-light">Add to basket</button>
+                                </div>
+                                <div class="choco-block">
+                                    <h3>Diamant</h3>
+                                    <img src="images/diamant.jpg" alt="diamant" width="150">
+                                    <p class="price">12.80 €</p>
+                                    <button class="btn btn-light">Add to basket</button>
+                                </div>
+                                <div class="choco-block">
+                                    <h3>Hroch</h3>
+                                    <img src="images/hroch.jpg" alt="hroch" width="150">
+                                    <p class="price">8.55 €</p>
+                                    <button class="btn btn-light">Add to basket</button>
+                                </div>
+                                <div class="choco-block">
+                                    <h3>Motorka</h3>
+                                    <img src="images/motorka.jpg" alt="motorka" width="150">
+                                    <p class="price">3.30 €</p>
+                                    <button class="btn btn-light">Add to basket</button>
+                                </div>
+                                <div class="choco-block">
+                                    <h3>Orechove Srdiecko</h3>
+                                    <img src="images/orechove_srdiecko.jpg" alt="orechove_srdiecko" width="150">
+                                    <p class="price">6.70 €</p>
+                                    <button class="btn btn-light">Add to basket</button>
+                                </div>
+                                <div class="choco-block">
+                                    <h3>Panda</h3>
+                                    <img src="images/panda.jpg" alt="panda" width="150">
+                                    <p class="price">2.80 €</p>
+                                    <button class="btn btn-light">Add to basket</button>
+                                </div>
+
+                            </div>
+                        </div>
+                </div>
+            </main>
+
+            <!-- News -->
+            <aside class="col-lg-2 news text-center p-3">
+                <img src="images/box.png" alt="News box" class="img-fluid mb-2">
+                <p>New limited edition flavors arriving soon!</p>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="text-start">
+        <p>Garai Etxeberria Uranga</p>
+    </footer>
+</body>
+</html>
